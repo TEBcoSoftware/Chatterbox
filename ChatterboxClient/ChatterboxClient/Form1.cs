@@ -68,5 +68,13 @@ namespace ChatterboxClient
                 buttonSend.PerformClick();
             }
         }
+
+
+        //If the help menu item is clicked, opens the help box
+        private void menuItem4_Click(object sender, EventArgs e)
+        {
+            AboutBox AB = new AboutBox();
+            AB.Show();
+        }
     }
 }
